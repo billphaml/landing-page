@@ -1,0 +1,33 @@
+@import "reset.css";
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 0px 5em;
+    padding-top: 1em;
+}
+
+.headercontent {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.headercontent.left {
+    gap: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.headercontent.right {
+    gap: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+}
+
+.headercontent.bottom {
+    padding: 5em;
+}
