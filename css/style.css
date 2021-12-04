@@ -4,30 +4,69 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 0px 5em;
+    padding: 0px 10em;
     padding-top: 1em;
 }
 
 .headercontent {
     display: flex;
     justify-content: space-between;
-    font-family: sans-serif;
 }
 
-.headercontent.left {
+.headercontent-top-left {
     gap: 8px;
     font-size: 24px;
     font-weight: bold;
+    font-family: sans-serif;
     color: #F9FAF8;
 }
 
-.headercontent.right {
+.headercontent-top-right {
     gap: 30px;
-    font-size: 18px;
-    color: #E5E7EB;
     align-items: center;
 }
 
-.headercontent.bottom {
-    padding: 5em;
+.headercontent-bottom {
+    align-self: center;
+    padding: 8em 0em;
+    display: flex;
+    gap: 30px;
+}
+
+.headercontent-bottom-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headercontent-bottom-right {
+    background-color: #e5e7eb83;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 5em 10em;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #e5e7eb83;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #F9FAF8;
+    padding: 0.5em 1.5em;
+    border-radius: 4px;
+    border: none;
+    align-self: flex-start;
 }
